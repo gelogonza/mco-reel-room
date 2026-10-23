@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 
-// Constants shared with the Blender scene (~/Documents/MCO Reel Room/mco-reel-room.blend).
+// Constants shared with the Blender scene (~/Designs/MCO Reel Room/mco-reel-room.blend).
 // Change them together: the atlas layout, strip length and reel size all depend on each other.
 export const CELLS = 16 // frames in film-atlas.png: 2 leader, 12 films, 2 tail
 export const LEAD = 2

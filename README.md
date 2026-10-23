@@ -31,7 +31,7 @@ film to the flat run before the twist, then feeds it through to the projector ga
 
 ## Editing the model
 
-The source scene is `~/Documents/MCO Reel Room/mco-reel-room.blend` (the "Atlas" scene in the same file
+The source scene is `~/Designs/MCO Reel Room/mco-reel-room.blend` (the "Atlas" scene in the same file
 renders `film-atlas.png`). After changing it, export glTF Binary with *Apply Modifiers* on and animations,
 cameras and lights off, and replace `public/models/reel-room.glb`. Keep these object names, which the code
 looks up: `Reel_Spin`, `Film_Strip`, `Screen`, `Projector_LensGlass`, `Floor`. If the strip's shape changes,
